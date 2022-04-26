@@ -1,0 +1,18 @@
+deklaracja if-then mówi programowi żeby wykonywał dany kod wtedy gdy zadany test ma wartość prawdziwą (true)
+
+Operator AND (&&) i OR (||) operują na wartościach logicznych, sprawdzają czy dane warunki dają true czy false
+
+Istnieje też operatory bitowe "&" i "|"(narazie nie istotne)
+
+Dobrym zwyczajem jest używanie jednocześnie warunków "==" i "!=" aby wyeliminować potecjalne błędy
+
+boolean wasCar = isCar ? true : false; potrójny operator: jeśli isCar == true wtedy wasCar = true, jeśli isCar == false wtedy wasCar = false
+boolean isCar = true; zatem wasCar = true
+
+http://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html
+
+
+
+

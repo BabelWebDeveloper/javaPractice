@@ -1,0 +1,13 @@
+Primitive types (prymitywne typy danych) grupa podstawowych typów danych, istnieje 8 prymitywnych typów danych w Javie: boolean, byte, char, short, int, long, float, double
+
+Java packages - pakiety Java - to sposób organizacji projektów w Javie. Np. folder learnprogramming niech będzie podfolerem folderu academy(...)
+
+/*Integer - Wrapper Class - klasa pakująca, umożliwia wkonywanie operacji na danej, użycie tej klasy w tym przypadku powie nam minimalny oraz poniżej maksymalny zakres liczb jaki może być przechowywany*/
+
+Zjawisko overflow - następuje gdy próbujesz uzyskać większą wartość niż maksymalna bądź minimalna
+
+BYTE: ma szerokość 8 bitów
+SHORT: ma szerokość 16 bitów
+INT: ma szerokość 32 bity
+
+Casting w Javie oznacza zmuszenie lub konwertowanie jednego typu liczby w inny

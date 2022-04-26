@@ -1,0 +1,1 @@
+String jest typem danych w Javie ale nie prymitywny, jest to klasa, sekwencja figur o maskymalnej wartości 2.14 mld (char ma tylko 1). Data String jest niezmienna, nie można jej zmienić po jej utworzeniu, można je jedynie nadpisać (utworzyć nowy)

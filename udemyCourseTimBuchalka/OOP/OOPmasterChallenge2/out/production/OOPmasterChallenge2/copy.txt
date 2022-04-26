@@ -1,0 +1,22 @@
+switch (addition){
+            case "tomato":
+                tomato ++;
+                additionsSum ++;
+                System.out.println("Tomato added.");
+                break;
+            case "avocado":
+                avocado ++;
+                additionsSum ++;
+                System.out.println("Avocado added.");
+                break;
+            case "onion":
+                onion ++;
+                additionsSum ++;
+                System.out.println("Onion added.");
+                break;
+            case "cheddar":
+                cheddar ++;
+                additionsSum ++;
+                System.out.println("Cheddar added.");
+                break;
+        }

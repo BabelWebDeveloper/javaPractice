@@ -1,0 +1,11 @@
+4 główne skłądniki Javy:
+Expressions - wyrażenia
+Statements - deklaracje
+Code blocks - blok kodu
+Methods - metody
+____
+50 keywords in Java
+
+Java posiada zarezerwowane 50 słów kluczowych używanych w wyrażeniach , nie możemy ich użyć do np nazwania zmiennych 
+
+Expressions : składnikami wyrażenia są zmienne, wartości i operatory

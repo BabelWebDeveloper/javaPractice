@@ -1,0 +1,3 @@
+Operatory - są to symbole które wykonują operacje na jednym lub kilku operandach (obiekcie który jest manipulowany przez operator)
+
+expression (wyrażenie) jest to kombinacja zmiennych, figur, metod zwracających wartość i operatorów

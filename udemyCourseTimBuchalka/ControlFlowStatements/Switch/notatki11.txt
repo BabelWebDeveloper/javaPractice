@@ -1,0 +1,7 @@
+	switch(wyrażnie - expression - które testujemy) {
+		case (wartość wyrażenia które testujemy):
+			co zrobić jeśli wyrażenie osiągnie tą wartość;
+			break;
+	}
+
+Switch to deklaracja - statement - mulit-gałęziowa

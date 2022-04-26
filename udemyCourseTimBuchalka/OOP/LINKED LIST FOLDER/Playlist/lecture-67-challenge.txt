@@ -1,0 +1,30 @@
+	// Create a program that implements a playlist for songs
+        // Create a Song class having Title and Duration for a song.
+        // The program will have an Album class containing a list of songs.
+        // The albums will be stored in an ArrayList
+        // Songs from different albums can be added to the playlist and will appear in the list in the order
+        // they are added.
+        // Once the songs have been added to the playlist, create a menu of options to:-
+        // Quit,Skip forward to the next song, skip backwards to a previous song.  Replay the current song.
+        // List the songs in the playlist
+        // A song must exist in an album before it can be added to the playlist (so you can only play songs that
+        // you own).
+        // Hint:  To replay a song, consider what happened when we went back and forth from a city before we
+        // started tracking the direction we were going.
+        // As an optional extra, provide an option to remove the current song from the playlist
+        // (hint: listiterator.remove()
+
+	// Utwórz program, który implementuje listę odtwarzania dla utworów 
+	// Utwórz klasę Song z tytułem i czasem trwania utworu. 
+	// Program będzie miał klasę Album zawierającą listę utworów. 
+	// Albumy będą przechowywane na liście ArrayList 
+	// Utwory z różnych albumów mogą być dodawane do listy odtwarzania i pojawią się na liście w kolejności ich dodawania. 
+	// Po dodaniu utworów do listy odtwarzania utwórz menu opcji, aby:- 
+	// Zakończ, przeskoczyć do następnego utworu, cofnąć się do poprzedniego utworu. Odtwórz ponownie bieżący utwór. 
+	// Wyświetl listę utworów na liście odtwarzania 
+	// Utwór musi istnieć w albumie, zanim będzie mógł zostać dodany do listy odtwarzania (możesz więc odtwarzać tylko te utwory, które jesteś właścicielem). 
+	// Podpowiedź: Aby odtworzyć piosenkę, zastanów się, co się wydarzyło, gdy wyruszaliśmy tam iz powrotem z miasta, zanim zaczęliśmy śledzić kierunek, w którym zmierzaliśmy. 
+	// Jako opcjonalny dodatek udostępnij opcję usunięcia bieżącego utworu z listy odtwarzania // (wskazówka: listiterator.remove()
+
+Lista utworów jako LinkedList
+Lista albumów jako ArrayList

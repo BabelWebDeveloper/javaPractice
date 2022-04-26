@@ -1,0 +1,6 @@
+pętla for
+for(initialization,condition,increment)
+
+inicjalizacja - zmienna rozpoczynająca pętle
+condition - warunek zatrzymania pętli - gdy condition == false
+increment/decrement - znany jako iterator, krok w pętli

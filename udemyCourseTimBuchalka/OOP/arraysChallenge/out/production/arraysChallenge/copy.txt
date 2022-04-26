@@ -1,0 +1,93 @@
+get biggest:
+
+int biggest = array[0];
+
+        for (int i = 0; i < array.length; i++){
+            if (array[i] > biggest){
+                biggest = array[i];
+            }
+        }
+        print(array);
+        System.out.println("biggest: " + biggest);
+
+        _________________________
+
++ sorted:
+
+int [] sorted = new int[array.length];
+        int biggest = array[0];
+        for (int j = 0; j < array.length; j++){
+            for (int i = 0; i < array.length; i++){
+                if (array[i] > biggest){
+                    biggest = array[i];
+                }
+            }
+            sorted[j] = biggest;
+        }
+        print(sorted);
+//        print(array);
+        System.out.println("biggest: " + biggest);
+
+                _________________________
+
+        najbliżej ever 1:
+
+public static void getBig(int [] array){
+        int [] sorted = new int[array.length];
+        int biggest = 0;
+
+        for (int j = 0; j < array.length; j++){
+            biggest = array[0];//pobrana 0 wartość = 1  TO JEST STAŁA
+            for (int i = 0; i < array.length; i++){
+                if (array[i] > biggest){
+                    biggest = array[i];
+                }
+            }
+            sorted[j] = biggest;
+            if (array[j] == biggest){
+                array[j] = 0;
+            }
+        }
+        print(sorted);
+//        print(array);
+    }
+                _________________________
+
+        najbliżej ever 2:
+
+        public static void getBig(int [] array){
+                int [] sorted = new int[array.length];
+                int biggest = 0;
+
+                for (int j = 0; j < array.length; j++){
+                    biggest = array[0];//pobrana 0 wartość = 1  TO JEST STAŁA
+
+        //            która największa:
+                    for (int i = 0; i < array.length; i++){
+                        if (array[i] > biggest){
+                            biggest = array[i];
+                        }
+                        if (array[i] == biggest){
+                            array[i] = 0;
+                        }
+                    }
+
+        //            przypisanie do sorted
+                    sorted[j] = biggest;
+                }
+                print(sorted);
+        //        print(array);
+            }
+
+
+            ______
+            copied:
+            int[] copy = new int[array.length - 1];
+            //int[] copy = new int[array.length - j];
+
+            for (int i = 0, k = 0; i < array.length; i++) {
+                if (i != biggest) {
+                    copy[k++] = array[i];
+                } // else{ biggest = array[i]}
+            }
+            array = copy

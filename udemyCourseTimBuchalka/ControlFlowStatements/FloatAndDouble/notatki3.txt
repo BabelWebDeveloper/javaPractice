@@ -1,0 +1,6 @@
+Floating numbers są to liczby z wartością po kropce (przecinku) np. liczba Pi 3.14159
+
+Single precision number posiada szerokość 32 bitów (32 liczby)
+Double precision zawiera 64 bity
+
+BigDecimal class jest wykorzystywana w Javie do precyzyjnych kalkulacji

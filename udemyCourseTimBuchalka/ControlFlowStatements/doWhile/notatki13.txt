@@ -1,0 +1,32 @@
+	init number = 0  --> inicjalizacja
+	while (condition) { --> najpierw sprawdzane są warunki przed wykonaniem bloku kodu
+		statements;
+	}
+
+	do { --> pętla jest wykonywana co najmniej jeden raz bez względu na warunki
+		statements;
+	} while (condition);
+
+W porównaniu do pętli for, pętla while posiada kroki (iteracje) "wewnątrz" kodu, a inicjalizacje - jako zadeklarowaną zmienną - poza kodem podczas gdy w pętli for iteracja oraz inicjalizacja jest w jednej linii;
+
+Continiue i break
+
+	while (number < 15) {
+		number++;
+		some statements;
+		.
+		.
+		.
+		if (number <= 5) { --> sprawdza czy warunek jest prawdziwy
+			statements;
+			continue; --> kontunuuj iteracje od momentu gdy number == 5
+		}
+		some statements;
+		.
+		.
+		.
+		if (number <= 10) {
+			statements;
+			break; --> przerwij iteracje gdy number == 5
+		}
+	}	

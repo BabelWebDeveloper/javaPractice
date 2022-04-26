@@ -1,0 +1,32 @@
+public void additions(String addition){
+        if (additionsSum < 4){
+            switch (addition){
+                case "tomato":
+                    tomato ++;
+                    additionsSum ++;
+                    priceWithAdditions += tomatoPrice;
+                    System.out.println("Tomato added.");
+                    break;
+                case "avocado":
+                    avocado ++;
+                    additionsSum ++;
+                    priceWithAdditions += avocadoPrice;
+                    System.out.println("Avocado added.");
+                    break;
+                case "onion":
+                    onion ++;
+                    additionsSum ++;
+                    priceWithAdditions += onionPrice;
+                    System.out.println("Onion added.");
+                    break;
+                case "cheddar":
+                    cheddar ++;
+                    additionsSum ++;
+                    priceWithAdditions += cheddarPrice;
+                    System.out.println("Cheddar added.");
+                    break;
+            }
+        } else {
+            System.out.println("Limit of additions reached!");
+        }
+    }

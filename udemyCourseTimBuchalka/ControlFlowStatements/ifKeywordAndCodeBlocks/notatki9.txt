@@ -1,0 +1,8 @@
+deklaracja if identyfikuje która deklaracja lub blok kodu ma być użyty na podstawie wartości zmiennej/warunków
+
+wewnątrz bloku kodu (wewnątrz {klamr})mamy jedno lub kilka deklaracji
+
+else wykonuje bloki kodu deklaracje jeśli if da wartość false
+
+Średnik kończy deklaracje IF ELSE !!!
+

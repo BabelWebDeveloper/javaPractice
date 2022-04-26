@@ -1,0 +1,17 @@
+//public (modyfikator dostępu) pozwala nam zdefiniować zakres lub to która częśc kodu może być modyfikowana przez kogoś
+//class pozwala określić klasę użytego słowa, klamry {} są używane do zdefiniowana bloku klasy, wszystko wewnątrz klamr jest częścią klas
+
+//static to słowo kluczowe niezbędne do zrozumienia innych konceptów - do znalezienia mużytych metod
+//void to słowo kluczowe mówiące o tym że metoda nie zwróci nic więcej poza zadeklarowanymi literami
+//main method jest metodą która jest niezbędna przy każdym programie Java, metoda to kolekcja założeń które wykonują daną operację
+//w nawiasach znajdują się parametry
+//System.out.println to założenia - statement - komendy do wykonania mogą zawierać jedno lub więcej wyrażeń (expressions)
+
+Variables (zmienne) umozliwiają przechowywanie informacji na naszym komputerze. Do zmiennych możemy uzyskać dostęp nadając im nazwę, komputer wykonuje pracę znalezienia tej zmiennej umieszczonej w paamięci RAM komputera (pamięć tymczasowa - znika gdy wyłączymy komputer).
+W zmiennych możemy trzymać różne typy danych np
+int - liczba
+
+Declaration statement (deklaracja) - jest używana do zdefiniowania zmiennej przez identyfikowanie typu danej, jej nazwy i opcjonalnie do ustalenia jej wartości
+
+Expression (wyrażenie) jest to konstrukcja est to konstrukcja, której wartością jest pojedyncza wartość
+

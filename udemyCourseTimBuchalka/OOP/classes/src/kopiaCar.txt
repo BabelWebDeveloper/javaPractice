@@ -1,0 +1,16 @@
+public class Car {
+
+    private int doors;/*THIS IS A STATE*/
+    private int wheels;/*THIS IS A STATE*/
+    private String model;/*THIS IS A STATE*/
+    private String engine;/*THIS IS A STATE*/
+    private String colour;/*THIS IS A STATE*/
+
+    public void setModel(String model) {/*method for update field (model) with the content of the passed parameter*/
+        this.model = model;/*this.model assigned model which is in the parameter, parameter is declared in Main.java*/
+    }
+
+    public String getModel() {/*getMOdel - method to print model*/
+            return this.model;
+    }
+}

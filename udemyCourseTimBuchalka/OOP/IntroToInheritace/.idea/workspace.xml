@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e4a832a-e6bb-485b-8a6c-b12520f4617e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/18_SharedDigit/18_SharedDigit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/19_LastDigitChecker/19_LastDigitChecker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/20_GreatestCommonDivisor/20_GreatestCommonDivisor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/21_AllFactors/21_AllFactors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/22_PerfectNumber/22_PerfectNumber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/23_NumberToWords/23_NumberToWords.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/24_FlourPackProblem/24_FlourPackProblem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/25_LargestPrime/25_LargestPrime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/26_DiagonalStar/26_DiagonalStar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/27_InputCalculator/27_InputCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/28_PaintJob/28_PaintJob.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/29_SumCalculator/29_SumCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/30_Person/30_Person.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/31_WallArea/31_WallArea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/32_Point/32_Point.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/33_Floor/33_Floor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/34_ComplexNumber/34_ComplexNumber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/35_Cylinder/35_Cylinder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/36_PoolArea/36_PoolArea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../37_Composition/37_Composition.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../38_Encapsulation/38_Encapsulation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composition/Composition.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositionChallenge1/CompositionChallenge1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Encapsulation/Encapsulation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EncapsulationChallenge/EncapsulationChallenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge/OOPmasterChallenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge/src/BaseBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge/src/DeluxeBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge/src/HealthyBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge/src/pseudo-code.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge2/OOPmasterChallenge2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge2/src/BaseBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge2/src/HealthyBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOPmasterChallenge2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Polymorphism/Polymorphism.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Polymorphism/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismChallenge/PolymorphismChallenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismChallenge/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismCodingExcercises/PolymorphismCodingExcercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismCodingExcercises/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismCodingExcercises/src/Ford.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismCodingExcercises/src/Holden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismCodingExcercises/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PolymorphismCodingExcercises/src/Mitsubishi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExcercises1_6/27_InputCalculator/src/InputCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/27_InputCalculator/src/InputCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceMyProject2/out/production/InheritanceMyProject2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceMyProject2/out/production/InheritanceMyProject2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPmasterChallenge2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPmasterChallenge2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntroToInheritace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodingExcercises1_6/17_EvenDigitSum/17_EvenDigitSum.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="254VEwPJq0WNA0ExKzeZckGI1uB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e4a832a-e6bb-485b-8a6c-b12520f4617e" name="Changes" comment="" />
+      <created>1646257073593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646257073593</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

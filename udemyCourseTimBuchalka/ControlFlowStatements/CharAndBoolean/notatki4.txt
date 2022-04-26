@@ -1,0 +1,5 @@
+data Char może przechowywać tylko jedną fugurę, 1 char zajmuje 2 bajty czyli 16 bitów pamięci ponieważ jeden bajt nie jest w stanie pomieścić wszystkich figur Unicodu
+
+Unicod jest to standard kodowania używany w wielu różnych językach i skryptach w wielu różńych platformach i porgramach
+
+Boolean przechwuje wartości true lub false; 1 lub 0

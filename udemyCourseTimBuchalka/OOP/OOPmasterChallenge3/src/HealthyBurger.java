@@ -1,0 +1,60 @@
+public class HealthyBurger extends Burger{
+    private String extraIngredient1;
+    private String extraIngredient2;
+
+    public HealthyBurger(String meat) {
+        super("Healthy burger", "brown rye bread roll", meat,24);
+    }
+
+    @Override
+    public void addIngredients(String ingredient1) {
+        super.addIngredients(ingredient1);
+    }
+
+    @Override
+    public void addIngredients(String ingredient1, String ingredient2) {
+        super.addIngredients(ingredient1, ingredient2);
+    }
+
+    @Override
+    public void addIngredients(String ingredient1, String ingredient2, String ingredient3) {
+        super.addIngredients(ingredient1, ingredient2, ingredient3);
+    }
+
+    @Override
+    public void addIngredients(String ingredient1, String ingredient2, String ingredient3, String ingredient4) {
+        super.addIngredients(ingredient1, ingredient2, ingredient3, ingredient4);
+    }
+
+    public void addIngredients(String ingredient1, String ingredient2, String ingredient3, String ingredient4, String extraIngredient1) {
+        addIngredients(ingredient1, ingredient2, ingredient3, ingredient4);
+        if (validate(extraIngredient1)){
+            this.extraIngredient1 = extraIngredient1;
+        } else {
+            System.out.println("Wrong ingredient!");
+        }
+        System.out.println("Healthy burger with 2 extra ingredients!");
+    }
+
+    public void addIngredients(String ingredient1, String ingredient2, String ingredient3, String ingredient4, String extraIngredient1, String extraIngredient2) {
+        addIngredients(ingredient1, ingredient2, ingredient3, ingredient4);
+        if (validate(extraIngredient1)){
+            this.extraIngredient1 = extraIngredient1;
+        } else {
+            System.out.println("Wrong ingredient!");
+        }
+        if (validate(extraIngredient2)){
+            this.extraIngredient2 = extraIngredient2;
+        } else {
+            System.out.println("Wrong ingredient!");
+        }
+    }
+
+    public String getExtraIngredient1() {
+        return extraIngredient1;
+    }
+
+    public String getExtraIngredient2() {
+        return extraIngredient2;
+    }
+}

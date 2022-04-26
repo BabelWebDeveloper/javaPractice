@@ -1,0 +1,23 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        Scanner scanner = new Scanner(System.in);/*new kreuje nową instację na scanera - nowy obiekt*/
+
+        System.out.println("Enter your year of birth:");
+        int yearOfBirth = scanner.nextInt();/*to read int - auto convert to integer*/
+        scanner.nextLine();// enter key - bez tego program nie pobierze następnego inputa z konsoli
+
+        System.out.println("Enter your name: ");
+        String name = scanner.nextLine();/*to read input from console*/
+        int age = 2022 - yearOfBirth;
+
+        System.out.println("Your name is " + name + " and your age is: " + age);
+
+        scanner.close();
+    }
+}

@@ -1,0 +1,12 @@
+public class Main {
+
+    public static void main(String[] args) {
+//        Car porshe;/*użycie klasy Car jak typ danych - stworzenie nowego typu danych i nadanie jej nazwy porshe, in other words we've created an object called Porshe based on the tamplate Car (Car.java)*/
+        Car porshe = new Car();/*gdy tworzy się nową klasę trzeba ją zainicjować*/
+        Car bmw = new Car();
+//        porshe. - after dot we can get access to fields that were created in template, only if we define therse fields as a public, not private
+//        porshe.model = "Carrera"; jeśli ustawimy jeden field na public uzyskujemy do niego dostęp
+        porshe.setModel("Carrera");/*assign "carrera" to model*/
+
+    }
+}
