@@ -13,7 +13,7 @@ public class Singleton {
         Singleton result = instance;//dzięki temu instance jest pobierane tylko jeden raz
         if (result == null){//jeśli wątek będzie chciał uzyskać dostęp do utworzonej instancji żeby nie musiał czekać - jeśli taka instancja już istnieje
             synchronized (Singleton.class){//jeśli inny wątek będzie chciał utworzyć nową instancję musi poczekać na swoją kolej - tylko jeden wątek może utworzyć nową instancję w tym samym czasie
-                result = instance;
+                result = instance;;
                 if (result == null){//tworzy tylko jeśli nie ma instancji
                     instance = new Singleton(data);
                 }
