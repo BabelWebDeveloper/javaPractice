@@ -3,6 +3,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 //        mariaDB commands:
 
+//        mariadb -u root -p - uruchom mariaDB
 //        show databases;
 //        create database database_name;
 //        drop database database_name;
@@ -10,6 +11,11 @@ import java.sql.SQLException;
 //        use database_name; /*- użycie/przełączenie się na konkretną bazę danych*/
 
 //---------------------------------STWORZENIE NOWEJ TABELI:
+//         create table departments (
+//    -> id int not null primary key auto_increment,
+//    -> text varchar(30), not null
+//    -> );
+
 //         create table employees (
 //    -> id int not null primary key auto_increment,
 //    -> employee_id int not null unique key,
@@ -26,11 +32,11 @@ import java.sql.SQLException;
 //---------------------------------WPROWADZANIE DANYCH DO TABELI:
 // INSERT INTO employees (employee_id, first_name, last_name, birth_date, dept_id) VALUES (123456, 'John','Doe','1985-12-14',1); /*- wprowadzanie danych do tabeli - jeśli jest foreign key - tutaj dept_id - musi istnieć w drugiej tabeli primary key i musi się on zgadzać z primary key - w tym przypadku oba musża mieć wartość 1*/
 
-//---------------------------------WYŚWIETLANIE TABELI:
+//---------------------------------WYŚWIETLANIE TABELI (informacje o tabeli, nie dane):
 //        describe table_name; /*- wyświetla tabelę*/
 
 //---------------------------------ZAŁADOWANIE DANYCH DO TABELI Z PLIKU:
-//        LOAD DATA LOCAL INFILE 'c:\Users\przem\OneDrive\SQL\departments.csv' /*ładowanie danych z pliku*/
+//        LOAD DATA LOCAL INFILE 'C:/Users/przem/OneDrive/javaPractice/MyProjects/DatabaseApp/employees.csv' /*ładowanie danych z pliku*/
 //    -> INTO TABLE departments
 //    -> FIELDS TERMINATED BY ','
 //    -> LINES TERMINATED BY '\r\n' /*?*/

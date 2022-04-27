@@ -17,6 +17,10 @@ public class Main {
         getEmployee(dbUrl,user,password,connection,callableStatement,resultSet,4);
     }
 
+//    private static void listOfEmployees(){
+//        getAllEmployees(dbUrl,user,password,connection,callableStatement,resultSet);
+//    }
+
     private static void getAllEmployees(String dbUrl, String user, String password, Connection connection, CallableStatement callableStatement, ResultSet resultSet){
         try {
             connection = Database.getConnection(dbUrl,user,password);
