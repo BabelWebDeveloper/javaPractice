@@ -24,7 +24,7 @@ import java.sql.SQLException;
 //    -> birth_date date,
 //    -> dept_id int not null,
 //    -> CONSTRAINT fk_dept_id  /*ograniczenia dla foreign key*/
-//    ->  FOREIGN KEY (dept_id) REFERENCES departments (id)
+//    ->
 //    ->  ON DELETE RESTRICT /*ograniczenie przed usunięciem dla foreign key jeśli są do niego przypisane jakieś dept_id*/
 //    ->  ON UPDATE RESTRICT
 //    -> );

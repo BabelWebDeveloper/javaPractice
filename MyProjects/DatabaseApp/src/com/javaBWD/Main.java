@@ -7,7 +7,7 @@ public class Main {
 
     private static String dbUrl = "jdbc:mariadb://localhost:3306/myproject";
     private static String user = "root";
-    private static String password = "nieznamDix37";
+    private static String password = "password";
     private static Connection connection = null;
     private static PreparedStatement preparedStatement = null;
     private static CallableStatement callableStatement = null;
@@ -20,7 +20,7 @@ public class Main {
 //        fireEmployee(12);
 //        fireEmployee(13);
 //        fireEmployee(11);
-        newEmployee("Przemek","Babel","1984-12-05",2);
+//        newEmployee("Przemek","Babel","1984-12-05",2);
         listOfEmployees();
     }
 
@@ -64,7 +64,7 @@ public class Main {
             System.out.println("Connection successful!");
 
 //            1. Create SQL for CallableStatement
-            String sql = "{call GetListOfEmployees()}";
+            String sql = "{call GetAllEmployees()}";
 
 //            2. Create a CallableStatement
             callableStatement = connection.prepareCall(sql);
@@ -74,8 +74,8 @@ public class Main {
 
 //            4. Process the ResultSet
             while (resultSet.next()){
-                System.out.println(resultSet.getInt("id") + " "
-                        + resultSet.getString("first_name") + " " + resultSet.getString("last_name"));
+                System.out.println(resultSet.getInt("id") + " " + resultSet.getInt("employee_id") + " "
+                        + resultSet.getString("first_name") + " " + resultSet.getString("last_name") + " " + resultSet.getDate("birth_date"));
             }
 
 
@@ -91,7 +91,7 @@ public class Main {
     private static void employeeInfo(int iemId){
         try {
             connection = Database.getConnection(dbUrl, user, password);
-            System.out.println("Database connecion successful");
+            System.out.println("Database connection successful");
 
             // 1. Create SQL for PreparedStatement using Parameters
             String sql = "SELECT id, first_name, last_name, birth_date, dept_id FROM employees where id = ?;";
@@ -123,7 +123,7 @@ public class Main {
     private static void fireEmployee(int iemId){
         try {
             connection = Database.getConnection(dbUrl, user, password);
-            System.out.println("Database connecion successful");
+            System.out.println("Database connection successful");
 
             // 1. Create SQL for PreparedStatement using Parameters
             String sql = "DELETE FROM employees WHERE id = ?;";
