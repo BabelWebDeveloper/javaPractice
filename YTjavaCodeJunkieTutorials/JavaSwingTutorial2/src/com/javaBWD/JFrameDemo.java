@@ -7,8 +7,8 @@ public class JFrameDemo {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-//                JFrameOne frame1 = new JFrameOne();
-                JFrameTwo frame2 = new JFrameTwo();
+                JFrameOne frame1 = new JFrameOne();
+//                JFrameTwo frame2 = new JFrameTwo();
             }
         });
     }

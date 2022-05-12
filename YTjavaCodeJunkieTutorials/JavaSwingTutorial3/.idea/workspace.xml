@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d31c5fb-a316-474d-953a-6bb8a86e747e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaDashboard/mysql-connector-java-8.0.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaDashboard/src/RegistrationForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaDashboard/src/RegistrationForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaDashboard/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaDashboard/src/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaDashboard/src/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaDashboard/src/stock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSwingTutorial/src/com/javaBWD/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSwingTutorial/src/com/javaBWD/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSwingTutorial2/src/com/javaBWD/JFrameDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSwingTutorial2/src/com/javaBWD/JFrameOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSwingTutorial2/src/com/javaBWD/JFrameTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyProjects/BookShop/src/BookShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyProjects/BookShop/src/Splash.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MyProjects/BookShop/src/Splash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSwingTutorial2/out/production/JavaSwingTutorial2/com/javaBWD/JFrameDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSwingTutorial2/out/production/JavaSwingTutorial2/com/javaBWD/JFrameDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSwingTutorial2/src/com/javaBWD/JFrameDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSwingTutorial2/src/com/javaBWD/JFrameDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/przemyslaw.babel/OneDrive/javaPractice/YTjavaCodeJunkieTutorials/JavaSwingTutorial3",
+    "settings.editor.selected.configurable": "preferences.general"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Launcher" />
