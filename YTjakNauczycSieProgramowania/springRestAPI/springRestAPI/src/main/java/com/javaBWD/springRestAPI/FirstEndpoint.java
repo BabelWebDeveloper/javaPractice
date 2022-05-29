@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class FirstEndpoint {
 
-    @GetMapping("/user")
+    @GetMapping("/test")
     public String getUser(){
-        return "Kamil";
+        return "Hello World";
     }
 }

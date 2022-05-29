@@ -21,7 +21,6 @@ public class Main {
 //        fireEmployee(13);
 //        fireEmployee(11);
 //        newEmployee("Przemek","Babel","1984-12-05",2);
-        listOfEmployees();
     }
 
     private static void newEmployee(String firstName, String lastName, String date, int ideptId){
@@ -43,10 +42,10 @@ public class Main {
             resultSet = callableStatement.executeQuery();
 
 //            4. Process the ResultSet
-//            while (resultSet.next()){
-//                System.out.println(resultSet.getInt("id") + " "
-//                        + resultSet.getString("first_name") + " " + resultSet.getString("last_name"));
-//            }
+            while (resultSet.next()){
+                System.out.println(resultSet.getInt("id") + " "
+                        + resultSet.getString("first_name") + " " + resultSet.getString("last_name"));
+            }
 
 
         } catch (SQLException e) {

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MovieController {
 
     @GetMapping("/test")
-    public int test() {
-        return 1;
+    public String test() {
+        return "Hello spring!";
     }
 }

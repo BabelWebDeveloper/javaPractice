@@ -1,0 +1,11 @@
+id,employee_id,first_name,last_name,birth_date,dept_id
+1,10,Emelia,Velasquez,1999-05-02,1
+2,20,Violet,Terry,1999-05-02,4
+3,30,Kara,Day,1999-05-02,2
+4,40,Nia,Clarke,1999-05-02,3
+5,50,Aleena,Bray,1999-05-02,1
+6,60,Euan,Black,1999-05-02,4
+7,70,Haroon,Hansen,1999-05-02,2
+8,80,Gethin,Delacruz,1999-05-02,2
+9,90,William,Little,1999-05-02,3
+10,100,Maximillian,Lamb,1999-05-02,4

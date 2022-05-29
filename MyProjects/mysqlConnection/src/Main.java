@@ -2,21 +2,22 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Databse {
-    public static Connection getConnection(String dburl, String user, String password) throws SQLException {
-        Connection connection = DriverManager.getConnection(dburl, user, password);
-        connection.setAutoCommit(true);
-        return connection;
-    }
-    public static void main(String[] args) {
+public class Main {
+
+    public static void main(String[] args) throws SQLException {
         Connection connection = null;
 
-        String dbUrl = "jdbc://localhost:3306/shop";
+        String dbUrl = "jdbc://localhost:3306/test";
         String user = "root";
-        String password = "password";
+        String password = "nieznamDix37";
 
         try{
-            connection = Databse
+            connection = Database.getConnection(dbUrl,user,password);
+            System.out.println("Database connection successfully.");
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        } finally {
+            connection.close();
         }
     }
 }
